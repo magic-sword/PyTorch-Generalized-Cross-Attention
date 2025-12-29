@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# パスワードを設定するファイルを無視
+.pypirc
+
+# Jupyter NotebookのGUIから削除したファイルを無視
+.Trash*/
+
+# トレーニングデータのダウンロードフォルダ
+/data
+
+# モデルデータの保存フォルダ
+/save
